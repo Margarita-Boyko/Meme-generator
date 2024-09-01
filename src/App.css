@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #0066b2 1.18%, #6CB4EE 100%);
+  color: white;
+  padding: 15px 20px;
+}
+
+.header--photo{
+  height: 100%;
+  margin-right: 10px;
+  color: transparent;
+}
+
+.header--title{
+  font-size: 1.2rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto; 
+  gap: 20px;
+}
+
+.form--label {
+  margin-bottom: 5px;
+}
+
+.meme {
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.meme--image{
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 40px;
+  width: 50%;
+  height: 500px;
+  border: 1px solid black;
+  
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form--input{
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  font-size: 1.2rem;
+  height: 35px;
+  width: 100%;
+}
+
+.form--button {
+  width: 100%;
+  height: 40px; 
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #0066b2 1.18%, #6CB4EE 100%);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
